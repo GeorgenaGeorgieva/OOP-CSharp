@@ -5,7 +5,7 @@
     using System.Linq;
     public class Person
     {
-        private const int minMoney = 0;
+        private const int MIN_MONEY = 0;
         private string name;
         private decimal money;
         private List<Product> bag;
@@ -42,7 +42,7 @@
             }
             private set
             {
-                if (value < minMoney)
+                if (value < MIN_MONEY)
                 {
                     throw new ArgumentException("Money cannot be negative");
                 }
