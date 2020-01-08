@@ -3,7 +3,7 @@
     using System;
     public class Product
     {
-        private const int minPrice = 0;
+        private const int MIN_PRICE = 0;
         private string type;
         private decimal price;
 
@@ -38,7 +38,7 @@
             }
             private set
             {
-                if (value < minPrice)
+                if (value < MIN_PRICE)
                 {
                     throw new ArgumentException("Money cannot be negative");
                 }
