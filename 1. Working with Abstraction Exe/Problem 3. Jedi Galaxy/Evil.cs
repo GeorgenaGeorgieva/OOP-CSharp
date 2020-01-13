@@ -5,8 +5,8 @@
         private int row;
         private int col;
 
-        public int Row { get; set; }
-        public int Col { get; set; }
+        public int Row { get; private set; }
+        public int Col { get; private set; }
 
         public void UpdateCoodrinates(int row, int col)
         {
