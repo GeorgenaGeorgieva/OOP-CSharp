@@ -6,9 +6,9 @@
         private int col;
         private long score;
 
-        public int Row { get; set; }
-        public int Col { get; set; }
-        public long Score { get; set; }
+        public int Row { get; private set; }
+        public int Col { get; private set; }
+        public long Score { get; private set; }
 
         public void UpdateCoordinates(int row, int col)
         {
