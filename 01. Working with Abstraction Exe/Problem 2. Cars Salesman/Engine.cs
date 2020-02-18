@@ -1,6 +1,7 @@
 ﻿namespace CarsSalesman
 {
     using System.Text;
+     
     public class Engine
     {
         private const string offset = "  ";
