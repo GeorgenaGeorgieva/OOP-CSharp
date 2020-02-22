@@ -1,8 +1,8 @@
-﻿using System;
-using System.Linq;
-
 namespace PointInRectangle
 {
+    using System;
+    using System.Linq;
+    
     public class Program
     {
         public static void Main(string[] args)
@@ -11,6 +11,7 @@ namespace PointInRectangle
                 .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToArray();
+            
             int topLeftX = coordinates[0];
             int topLeftY = coordinates[1];
             int bottomRightX = coordinates[2];
@@ -29,6 +30,7 @@ namespace PointInRectangle
                     .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
                     .Select(int.Parse)
                     .ToArray();
+                
                 int x = currentPointCoordinates[0];
                 int y = currentPointCoordinates[1];
 
