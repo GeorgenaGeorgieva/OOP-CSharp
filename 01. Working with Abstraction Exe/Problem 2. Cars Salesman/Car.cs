@@ -1,6 +1,7 @@
 ﻿namespace CarsSalesman
 {
     using System.Text;
+     
     public class Car
     {
         private const string offset = "  "; 
@@ -40,16 +41,19 @@
             get { return this.model; }
             private set { this.model = value; } 
         }
+        
         public Engine Engine 
         {
             get { return this.engine; }
             private set { this.engine = value; } 
         }
+        
         public int? Weight 
         {
             get { return this.weight; }
             private set { this.weight = value; } 
         }
+        
         public string Color 
         {
             get { return this.color; }

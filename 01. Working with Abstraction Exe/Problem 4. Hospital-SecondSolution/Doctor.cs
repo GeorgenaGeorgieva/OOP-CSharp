@@ -3,6 +3,7 @@
     using System.Collections.Generic;
     using System.Text;
     using System.Linq;
+     
     public class Doctor
     {
         private string firstName;
@@ -17,8 +18,11 @@
         }
 
         public string FirstName { get; set; }
+        
         public string LastName { get; set; }
+        
         public string FullName => this.FirstName + " " + this.LastName;
+        
         public List<Patient> Patients { get; set; }
 
         public void AddPatientToPatientsList(Patient patient)
@@ -28,7 +32,7 @@
 
         public override string ToString()
         {
-            StringBuilder printPatientsList = new StringBuilder();
+            var printPatientsList = new StringBuilder();
             var sortedPatientsList = this.Patients.OrderBy(p => p.Name);
 
             foreach (var patient in sortedPatientsList)
