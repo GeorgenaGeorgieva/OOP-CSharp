@@ -1,6 +1,7 @@
 ﻿namespace HotelReservation
 {
     using System;
+     
     public class PriceCalculator
     {
         private decimal pricePerDay;
