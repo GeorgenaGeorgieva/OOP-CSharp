@@ -1,9 +1,10 @@
 ﻿namespace ShoppingSpree
 {
     using System;
+        
     public class Product
     {
-        private const int MIN_PRICE = 0;
+        private const int MinPrice = 0;
         private string type;
         private decimal price;
 
@@ -38,7 +39,7 @@
             }
             private set
             {
-                if (value < MIN_PRICE)
+                if (value < MinPrice)
                 {
                     throw new ArgumentException("Money cannot be negative");
                 }
