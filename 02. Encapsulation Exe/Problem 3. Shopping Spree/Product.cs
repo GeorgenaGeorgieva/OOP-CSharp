@@ -5,6 +5,7 @@
     public class Product
     {
         private const int MinPrice = 0;
+        
         private string type;
         private decimal price;
 
