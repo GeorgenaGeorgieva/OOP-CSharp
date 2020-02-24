@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+     
     public class Pizza
     {
         private string name;
@@ -56,6 +57,7 @@
                 this.toppings = value;
             }
         }
+        
         public int GetCountOfToppings()
         {
             return this.Toppings.Count;
