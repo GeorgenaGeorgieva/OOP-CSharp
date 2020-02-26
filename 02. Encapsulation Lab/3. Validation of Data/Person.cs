@@ -1,6 +1,7 @@
 ﻿namespace PersonsInfo
 {
     using System;
+     
     public class Person
     {
         private string firstName;
