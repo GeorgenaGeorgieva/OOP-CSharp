@@ -1,11 +1,12 @@
 ﻿namespace PersonsInfo
 {
     using System;
+     
     public class StartUp
     {
         public static void Main(string[] args)
         {
-            var lines = int.Parse(Console.ReadLine());
+            int lines = int.Parse(Console.ReadLine());
             var team = new Team("The Lions");
 
             for (int i = 0; i < lines; i++)
