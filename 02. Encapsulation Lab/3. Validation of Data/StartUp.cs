@@ -7,7 +7,7 @@
     {
         public static void Main(string[] args)
         {
-            var lines = int.Parse(Console.ReadLine());
+            int lines = int.Parse(Console.ReadLine());
             var people = new List<Person>();
 
             for (int i = 0; i < lines; i++)
@@ -31,7 +31,7 @@
                 }
             }
 
-            var bonus = decimal.Parse(Console.ReadLine());
+            decimal bonus = decimal.Parse(Console.ReadLine());
 
             people.ForEach(p => p.IncreaseSalary(bonus));
             people.ForEach(p => Console.WriteLine(p.ToString()));
