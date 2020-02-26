@@ -2,12 +2,14 @@
 {
     using System;
     using System.Collections.Generic;
+     
     public class StartUp
     {
         public static void Main(string[] args)
         {
-            var lines = int.Parse(Console.ReadLine());
             var people = new List<Person>();
+            
+            int lines = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < lines; i++)
             {
@@ -23,7 +25,7 @@
                 people.Add(person);
             }
 
-            var bonus = decimal.Parse(Console.ReadLine());
+            decimal bonus = decimal.Parse(Console.ReadLine());
 
             people.ForEach(p => p.IncreaseSalary(bonus));
             people.ForEach(p => Console.WriteLine(p.ToString()));
