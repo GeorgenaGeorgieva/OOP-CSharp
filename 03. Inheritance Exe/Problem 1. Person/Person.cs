@@ -1,6 +1,7 @@
 ﻿namespace ProblemPerson
 {
     using System.Text;
+     
     public class Person
     {
         private int age;
@@ -30,10 +31,7 @@
 
         public override string ToString()
         {
-            StringBuilder stringbuilder = new StringBuilder();
-            stringbuilder.Append($"Name: {this.Name}, Age: {this.Age}");
-
-            return stringbuilder.ToString();
+            return $"Name: {this.Name}, Age: {this.Age}".ToString();
         }
     }
 }
