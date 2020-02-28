@@ -12,7 +12,7 @@
         {
             var animals = new List<Animal>();
 
-            var inputLine = Console.ReadLine();
+            string inputLine = Console.ReadLine();
 
             while (inputLine != "Beast!")
             {
