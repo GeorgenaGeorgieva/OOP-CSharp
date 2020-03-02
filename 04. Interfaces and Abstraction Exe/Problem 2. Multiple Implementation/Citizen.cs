@@ -80,6 +80,7 @@
 
             stringBuilder.AppendLine($"{this.Id}");
             stringBuilder.Append($"{this.Birthdate}");
+            
             return stringBuilder.ToString().TrimEnd();
         }
     }
