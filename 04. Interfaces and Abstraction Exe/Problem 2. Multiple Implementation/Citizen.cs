@@ -2,6 +2,7 @@
 {
     using System;
     using System.Text;
+     
     public class Citizen : IPerson, IIdentifiable, IBirthable
     {
         private string name;
