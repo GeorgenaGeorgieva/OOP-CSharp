@@ -1,10 +1,10 @@
 ﻿namespace BirthdayCelebrations
 {
-    using Interfaces;
-    using Objects;
     using System;
     using System.Linq;
     using System.Collections.Generic;
+    using Interfaces;
+    using Objects;
 
     public class StartUp
     {
