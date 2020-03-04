@@ -9,6 +9,7 @@
         }
 
         public string Username { get; set; }
+        
         public int Level { get; set; }
 
         public override string ToString()

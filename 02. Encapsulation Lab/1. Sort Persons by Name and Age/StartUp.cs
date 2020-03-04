@@ -8,8 +8,9 @@
     {
         public static void Main(string[] args)
         {
-            var lines = int.Parse(Console.ReadLine());
             var people = new List<Person>();
+            
+            int lines = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < lines; i++)
             {

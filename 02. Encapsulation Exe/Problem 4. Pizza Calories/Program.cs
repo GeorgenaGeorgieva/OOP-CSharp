@@ -1,6 +1,7 @@
 ﻿namespace PizzaCalories
 {
     using System;
+     
     public class Program
     {
         public static void Main(string[] args)
@@ -14,7 +15,6 @@
             try
             {
                 string name = pizzaOrder[1];
-
                 string flourType = supplements[1];
                 string backingTechnique = supplements[2];
                 int weight = int.Parse(supplements[3]);

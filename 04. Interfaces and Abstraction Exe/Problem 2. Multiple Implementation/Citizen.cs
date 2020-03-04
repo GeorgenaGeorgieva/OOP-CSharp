@@ -2,7 +2,7 @@
 {
     using System;
     using System.Text;
-
+     
     public class Citizen : IPerson, IIdentifiable, IBirthable
     {
         private string name;
@@ -80,6 +80,7 @@
 
             stringBuilder.AppendLine($"{this.Id}");
             stringBuilder.Append($"{this.Birthdate}");
+            
             return stringBuilder.ToString().TrimEnd();
         }
     }

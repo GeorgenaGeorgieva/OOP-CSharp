@@ -1,9 +1,11 @@
 ﻿namespace PizzaCalories
 {
     using System;
+     
     public class Dough
     {
-        private const double CALORIES_GRAM = 2;
+        private const double CaloriesGram = 2;
+        
         private string flourType;
         private string backingTechnique;
         private int weight;
@@ -70,7 +72,7 @@
 
         public double CalculateDoughCalories()
         {
-            double modifier = CALORIES_GRAM;
+            double modifier = CaloriesGram;
 
             if (this.FlourType.ToLower() == "white")
             {

@@ -1,6 +1,7 @@
 ﻿namespace AnimalFarm.Models
 {
     using System;
+	 
     public class Chicken
     {
         private const int minAge = 0;
@@ -45,7 +46,7 @@
 
         public double ProductPerDay
         {
-			get { return this.CalculateProductPerDay(); }
+	     get { return this.CalculateProductPerDay(); }
         }
 
         public override string ToString()

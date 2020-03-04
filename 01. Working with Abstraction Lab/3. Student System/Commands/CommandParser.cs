@@ -1,6 +1,7 @@
 ﻿namespace StudentSystemCatalog.Commands
 {
     using System.Linq;
+     
     public class CommandParser
     {
         public Command Parse(string command)
