@@ -1,12 +1,12 @@
 ﻿namespace WildFarm
 {
+    using System;
+    using System.Collections.Generic;
     using Clases.Animal;
     using Clases.Animal.Bird;
     using Clases.Animal.Mammal;
     using Clases.Animal.Mammal.Feline;
     using Clases.Food;
-    using System;
-    using System.Collections.Generic;
 
     public class StartUp
     {
